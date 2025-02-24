@@ -38,17 +38,16 @@
       .then(clientes => {
         const tableBody = document.getElementById('clientesTable').querySelector('tbody');
 
-        document.write(JSON.stringify(clientes))
-        // clientes.forEach(cliente => {
-        //   const row = tableBody.insertRow();
-        //   row.insertCell().textContent = cliente.id;
-        //   row.insertCell().textContent = cliente.nombre;
-        //   row.insertCell().textContent = `${cliente.direccion.calle}, ${cliente.direccion.municipio}, ${cliente.direccion.estado}, ${cliente.direccion.pais}`;
-        //   row.insertCell().textContent = cliente.telefono;
-        //   row.insertCell().textContent = cliente.email;
-        //   row.insertCell().textContent = `${cliente.registroLegal.tipo}, ${cliente.registroLegal.numeroRegistro}, ${cliente.registroLegal.fechaConstitucion}`;
-        //   row.insertCell().textContent = cliente.codigoSIC;
-        // });
+        clientes.forEach(cliente => {
+          const row = tableBody.insertRow();
+          row.insertCell().textContent = cliente.id;
+          row.insertCell().textContent = cliente.nombre;
+          row.insertCell().textContent = `${cliente.direccion.calle}, ${cliente.direccion.municipio}, ${cliente.direccion.estado}, ${cliente.direccion.pais}`;
+          row.insertCell().textContent = cliente.telefono;
+          row.insertCell().textContent = cliente.email;
+          row.insertCell().textContent = `${cliente.registroLegal.tipo}, ${cliente.registroLegal.numeroRegistro}, ${cliente.registroLegal.fechaConstitucion}`;
+          row.insertCell().textContent = cliente.codigoSIC;
+        });
       });
   </script>
 </body>
