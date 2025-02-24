@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Productos de Empresas Polar</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Productos de Empresas Polar</h1>
+  <table id="productosTabla">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Tipo</th>
+        <th>Descripción</th>
+        <th>Marca</th>
+      </tr>
+    </thead>
+    <tbody>
+      </tbody>
+  </table>
+
+  <script>
+    fetch('productos.json')
+      .then(response => response.json())
+      .then(productos => {
+        const tabla = document.getElementById('productosTabla').getElementsByTagName('tbody')[0];
+
+        productos.forEach(producto => {
+          let fila = tabla.insertRow();
+          let celdaId = fila.insertCell();
+          let celdaNombre = fila.insertCell();
+          let celdaTipo = fila.insertCell();
+          let celdaDescripcion = fila.insertCell();
+          let celdaMarca = fila.insertCell();
+
+          celdaId.textContent = producto.id;
+          celdaNombre.textContent = producto.nombre;
+          celdaTipo.textContent = producto.tipo;
+          celdaDescripcion.textContent = producto.descripcion;
+          celdaMarca.textContent = producto.marca;
+        });
+      });
+  </script>
+</body>
+</html>

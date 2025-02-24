@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "nombre": "Cerveza Polar",
+      "tipo": "Bebida alcohólica",
+      "descripcion": "Cerveza tipo Pilsen, la más popular de Venezuela.",
+      "marca": "Cervecería Polar"
+    },
+    {
+      "id": "2",
+      "nombre": "Maltín Polar",
+      "tipo": "Bebida no alcohólica",
+      "descripcion": "Malta refrescante y nutritiva.",
+      "marca": "Cervecería Polar"
+    },
+    {
+      "id": "3",
+      "nombre": "Harina P.A.N.",
+      "tipo": "Alimento",
+      "descripcion": "Harina de maíz precocida para preparar arepas y otros platos tradicionales.",
+      "marca": "Alimentos Polar"
+    },
+    {
+      "id": "4",
+      "nombre": "Arroz Primor",
+      "tipo": "Alimento",
+      "descripcion": "Arroz de alta calidad, ideal para acompañar tus comidas.",
+      "marca": "Alimentos Polar"
+    },
+      {
+      "id": "5",
+      "nombre": "Aceite Mazorca",
+      "tipo": "Alimento",
+      "descripcion": "Aceite vegetal de maíz.",
+      "marca": "Alimentos Polar"
+    },
+    {
+      "id": "6",
+      "nombre": "Pepsi",
+      "tipo": "Bebida gaseosa",
+      "descripcion": "Refresco de cola clásico.",
+      "marca": "Pepsi-Cola Venezuela"
+    },
+      {
+      "id": "7",
+      "nombre": "7Up",
+      "tipo": "Bebida gaseosa",
+      "descripcion": "Refresco de lima-limón.",
+      "marca": "Pepsi-Cola Venezuela"
+    }
+  ]

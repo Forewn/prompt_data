@@ -25,7 +25,7 @@
         <th>Teléfono</th>
         <th>Email</th>
         <th>Registro Legal</th>
-        <th>Código SIC</th>
+        <th>Código SICA</th>
       </tr>
     </thead>
     <tbody>
@@ -46,7 +46,7 @@
           row.insertCell().textContent = cliente.telefono;
           row.insertCell().textContent = cliente.email;
           row.insertCell().textContent = `${cliente.registroLegal.tipo}, ${cliente.registroLegal.numeroRegistro}, ${cliente.registroLegal.fechaConstitucion}`;
-          row.insertCell().textContent = cliente.codigoSIC;
+          row.insertCell().textContent = cliente.codigoSICA;
         });
       });
   </script>

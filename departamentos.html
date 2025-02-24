@@ -26,6 +26,7 @@
         <th>Nombre</th>
         <th>Correo</th>
         <th>Descripción</th>
+        <th>Teléfono</th>
       </tr>
     </thead>
     <tbody>
@@ -44,11 +45,13 @@
           let celdaNombre = fila.insertCell();
           let celdaCorreo = fila.insertCell();
           let celdaDescripcion = fila.insertCell();
+          let celdaTelefono = fila.insertCell();
 
           celdaId.textContent = departamento.id;
           celdaNombre.textContent = departamento.nombre;
           celdaCorreo.textContent = departamento.correo;
           celdaDescripcion.textContent = departamento.descripcion;
+          celdaTelefono.textContent = departamento.telefono;
         });
       });
   </script>

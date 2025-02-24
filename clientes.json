@@ -15,7 +15,7 @@
         "numeroRegistro": "J-12345678-9",
         "fechaConstitucion": "2010-05-20"
       },
-      "codigoSIC": "3661"
+      "codigoSICA": "3661"
     },
     {
       "id": 2,
@@ -33,7 +33,7 @@
         "numeroRegistro": "J-98765432-1",
         "fechaConstitucion": "2016-09-12"
       },
-      "codigoSIC": "2211"
+      "codigoSICA": "2211"
     },
     {
       "id": 3,
@@ -51,6 +51,6 @@
         "numeroRegistro": "V-10111213-4",
         "fechaConstitucion": "2019-03-08"
       },
-      "codigoSIC": "5411"
+      "codigoSICA": "5411"
     }
   ]
