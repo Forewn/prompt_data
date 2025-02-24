@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Clientes</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lista de Clientes</h1>
+  <table id="clientesTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th>Teléfono</th>
+        <th>Email</th>
+        <th>Registro Legal</th>
+        <th>Código SIC</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script>
+    fetch('clientes.json')
+      .then(response => response.json())
+      .then(clientes => {
+        const tableBody = document.getElementById('clientesTable').querySelector('tbody');
+
+        document.write(JSON.stringify(clientes))
+        // clientes.forEach(cliente => {
+        //   const row = tableBody.insertRow();
+        //   row.insertCell().textContent = cliente.id;
+        //   row.insertCell().textContent = cliente.nombre;
+        //   row.insertCell().textContent = `${cliente.direccion.calle}, ${cliente.direccion.municipio}, ${cliente.direccion.estado}, ${cliente.direccion.pais}`;
+        //   row.insertCell().textContent = cliente.telefono;
+        //   row.insertCell().textContent = cliente.email;
+        //   row.insertCell().textContent = `${cliente.registroLegal.tipo}, ${cliente.registroLegal.numeroRegistro}, ${cliente.registroLegal.fechaConstitucion}`;
+        //   row.insertCell().textContent = cliente.codigoSIC;
+        // });
+      });
+  </script>
+</body>
+</html>

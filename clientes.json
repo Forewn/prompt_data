@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "nombre": "Electrónicos del Orinoco C.A.",
+      "direccion": {
+        "pais": "Venezuela",
+        "estado": "Bolívar",
+        "municipio": "Ciudad Bolívar",
+        "calle": "Av. Germania, Edificio Orinoco Plaza, Piso 3, Oficina 305"
+      },
+      "telefono": "+58-285-1234567",
+      "email": "info@electronicosorinoco.com",
+      "registroLegal": {
+        "tipo": "Compañía Anónima",
+        "numeroRegistro": "J-12345678-9",
+        "fechaConstitucion": "2010-05-20"
+      },
+      "codigoSIC": "3661"
+    },
+    {
+      "id": 2,
+      "nombre": "Textiles Andinos Ltda.",
+      "direccion": {
+        "pais": "Venezuela",
+        "estado": "Táchira",
+        "municipio": "San Cristóbal",
+        "calle": "Carrera 22, Calle 15, Sector Centro, Local 12"
+      },
+      "telefono": "+58-276-9876543",
+      "email": "contacto@textilesandinos.com",
+      "registroLegal": {
+        "tipo": "Sociedad de Responsabilidad Limitada",
+        "numeroRegistro": "J-98765432-1",
+        "fechaConstitucion": "2016-09-12"
+      },
+      "codigoSIC": "2211"
+    },
+    {
+      "id": 3,
+      "nombre": "Alimentos del Llano EIRL",
+      "direccion": {
+        "pais": "Venezuela",
+        "estado": "Guárico",
+        "municipio": "San Juan de los Morros",
+        "calle": "Calle Bolívar, Sector La Morera, Casa N° 5"
+      },
+      "telefono": "+58-246-1122334",
+      "email": "pedidos@alimentosllano.com",
+      "registroLegal": {
+        "tipo": "Empresa Individual de Responsabilidad Limitada",
+        "numeroRegistro": "V-10111213-4",
+        "fechaConstitucion": "2019-03-08"
+      },
+      "codigoSIC": "5411"
+    }
+  ]
