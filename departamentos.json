@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "nombre": "Área de Distribución y Logística",
+      "correo": "distribucion_logistica@empresaspolar.com",
+      "descripcion": "Encargado de resolver problemas logísticos relacionados con la entrega de pedidos."
+    },
+    {
+      "id": "2",
+      "nombre": "Departamento de Finanzas",
+      "correo": "finanzas@empresaspolar.com",
+      "descripcion": "Responsable de gestionar pagos pendientes y asuntos financieros."
+    },
+    {
+      "id": "3",
+      "nombre": "Departamento de Control de Calidad",
+      "correo": "calidad@empresaspolar.com",
+      "descripcion": "Se encarga de investigar y resolver reclamos relacionados con la calidad de los productos, especialmente aquellos con impacto masivo o problemas de salud."
+    },
+    {
+      "id": "4",
+      "nombre": "Área de Exportaciones",
+      "correo": "exportaciones@empresaspolar.com",
+      "descripcion": "Atiende consultas relacionadas con la distribución internacional de productos."
+    },
+      {
+      "id": "5",
+      "nombre": "Equipo de Relaciones Públicas",
+      "correo": "relacionespublicas@empresaspolar.com",
+      "descripcion": "Gestiona solicitudes relacionadas con publicidad y patrocinios."
+    },
+      {
+      "id": "6",
+      "nombre": "Equipo especializado en gestión de reputación",
+      "correo": "gestionreputacion@empresaspolar.com",
+      "descripcion": "Se encarga de evaluar las denuncias publicas sobre productos en las redes sociales."
+    }
+  ]

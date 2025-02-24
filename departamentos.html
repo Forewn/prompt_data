@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Departamentos de Empresas Polar</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Departamentos de Empresas Polar</h1>
+  <table id="departamentosTabla">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      </tbody>
+  </table>
+
+  <script>
+    fetch('departamentos.json')
+      .then(response => response.json())
+      .then(departamentos => {
+        const tabla = document.getElementById('departamentosTabla').getElementsByTagName('tbody')[0];
+
+        departamentos.forEach(departamento => {
+          let fila = tabla.insertRow();
+          let celdaId = fila.insertCell();
+          let celdaNombre = fila.insertCell();
+          let celdaCorreo = fila.insertCell();
+          let celdaDescripcion = fila.insertCell();
+
+          celdaId.textContent = departamento.id;
+          celdaNombre.textContent = departamento.nombre;
+          celdaCorreo.textContent = departamento.correo;
+          celdaDescripcion.textContent = departamento.descripcion;
+        });
+      });
+  </script>
+</body>
+</html>
