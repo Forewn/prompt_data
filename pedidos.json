@@ -1,0 +1,32 @@
+[
+  {
+    "id": "12345",
+    "cliente": "Supermercado La Esquina",
+    "productos": [
+      { "nombre": "Harina P.A.N.", "cantidad": 50 },
+      { "nombre": "Cerveza Polar", "cantidad": 100 }
+    ],
+    "fecha": "2023-10-26",
+    "estado": "En ruta"
+  },
+  {
+    "id": "67890",
+    "cliente": "Distribuidora El Sol",
+    "productos": [
+      { "nombre": "Arroz Primor", "cantidad": 75 },
+      { "nombre": "Maltín Polar", "cantidad": 150 }
+    ],
+    "fecha": "2023-10-27",
+    "estado": "Procesando"
+  },
+    {
+    "id": "13579",
+    "cliente": "Mini Market Los Andes",
+    "productos": [
+      { "nombre": "Aceite Mazorca", "cantidad": 20 },
+      { "nombre": "Pepsi", "cantidad": 80 }
+    ],
+    "fecha": "2023-10-28",
+    "estado": "Entregado"
+  }
+]
